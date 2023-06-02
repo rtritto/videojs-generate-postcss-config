@@ -22,5 +22,13 @@ logs
 npm-debug.log*
 
 # Dependency directories
-node_modules/
 .eslintcache
+
+# yarn berry
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions

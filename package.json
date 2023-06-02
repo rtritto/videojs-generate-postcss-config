@@ -24,10 +24,7 @@
     ]
   },
   "keywords": [],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/videojs/videojs-generate-postcss-config"
-  },
+  "repository": "https://github.com/videojs/videojs-generate-postcss-config",
   "author": "Brandon Casey <videojs@gmail.com>",
   "license": "Apache-2.0",
   "bugs": {
@@ -35,8 +32,8 @@
   },
   "homepage": "https://github.com/videojs/videojs-generate-postcss-config",
   "peerDependencies": {
-    "postcss": "^8.0.0",
-    "postcss-cli": "^8.0.0"
+    "postcss": "^8",
+    "postcss-cli": "^10"
   },
   "dependencies": {
     "autoprefixer": "^10.0.1",
@@ -50,7 +47,7 @@
     "postcss-progress": "^2.0.0"
   },
   "devDependencies": {
-    "@videojs/generator-helpers": "^1.1.0",
+    "@videojs/generator-helpers": "^3.2.0",
     "videojs-generator-verify": "~1.2.0",
     "videojs-standard": "^8.0.4"
   },
@@ -58,5 +55,6 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
-  }
+  },
+  "packageManager": "yarn@4.0.0-rc.45"
 }
